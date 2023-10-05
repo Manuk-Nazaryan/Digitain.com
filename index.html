@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+            <label>Login</label>
+        <input id="text" oninput="getValue()"> <br/>
+            <label>password</label>
+        <input id="passText" oninput="getValue()"> <br/>
+        <button id="send">click</button>
+        <script>
+              function getValue(){
+    let btn = document.getElementById('send')
+    let text = document.getElementById("text")
+    let textValue  = text.value;
+    let passText = document.getElementById('passText')
+    let passValue = passText.value
+btn.addEventListener('click',()=>{
+   return console.log(textValue,passValue);
+})
+  }
+        </script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
