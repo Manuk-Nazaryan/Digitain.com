@@ -3,26 +3,174 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+        <link rel="website icon" type="png" href="./image/logos.png">
     <title>Document</title>
 </head>
 <body>
-            <label>Login</label>
-        <input id="text" oninput="getValue()"> 
-            <label>password</label>
-        <input id="passText" oninput="getValue()"> 
-        <button id="send">click</button>
-        <script>
-              function getValue(){
-    let btn = document.getElementById('send')
-    let text = document.getElementById("text")
-    let textValue  = text.value;
-    let passText = document.getElementById('passText')
-    let passValue = passText.value
-btn.addEventListener('click',()=>{
-   return console.log(textValue,passValue);
-})
-  }
-        </script>
-    <script src="./js/script.js"></script>
+    <div class="header" id="header">
+        <img src="./image/digitain_logo.png" class="header-logo"/>
+        <p class="header-text" id="menu">LUÍS FIGO</p>
+        <p class="header-text" id="menu1"> ПРОДУКТЫ</p>
+        <p class="header-text" id="menu2">РЕШЕНИЯ </p>
+        <p class="header-text" id="menu3">НОВОСТИ</p>
+        <p class="header-text" id="menu4">КАМПАНИЯ</p>
+        <p class="header-text" id="menu5">КАРЬЕРА</p>
+        <p class="header-text" id="menu6">СВЯЖИТЕСЬ С НАМИ</p>
+        <p class="header-text" id="menu7"> БЛОГ</p>
+        <p class="header-text" id="menu8">RU</p>
+        <ion-icon name="close-outline" class="media" id="media"></ion-icon>
+        <ion-icon name="menu-outline" id='icon'></ion-icon>
+    </div>
+    <div class="bg">
+    <div class="text-bg">
+            <div class="index">  
+<p class="bg-text" id="bg-text">НАГРАДЫ</p>
+<p class="bg-text" id="bg-text">Digitain победил в номинации <br>«Поставщик года в области ставок на <br>спорт»</p>
+<p class="bg-text" id="bg-text">13 September 2023</p>
+<p class="bg-text" id="bg-text">УЗНАТЬ БОЛЬШЕ</p>
+<button class="btn"><ion-icon name="chevron-back-outline" class="icon"></ion-icon></button>
+<button class="btn"><ion-icon name="chevron-forward-outline" class="icon"></ion-icon></button> 
+</div>   
+</div>
+</div>
+<div class="menu"> 
+    <p class="menu-text">ВСЕ</p>
+    <p class="menu-text">НАГРАДЫ</p>
+    <p class="menu-text">НОВЫЕ ВОЗМОЖНОСТИ</p>
+    <p class="menu-text">НОВЫЕ ПАРТНЕРЫ</p>
+    <p class="menu-text">ИНТЕРВЬЮ</p>
+    <p class="menu-text">ДРУГИЕ</p>
+<button class="menu-btn"></button>
+</div>
+<div class="grid">
+    <div class="grid-div">
+    <img src="./image/one.png" class="grid-img">
+    <p class="text-one">Digitain Wins Sportsbook Supplier of the Year at SBC Awards 2023</p>
+    <p  class="text-two">27 September 2023 / Награды</p>
+    <p class="text-tree">Team Digitain is delighted to announce that we won the prestigious SBC Summit Award for Sportsbook Supplier of the Year held in Barcelona.</p>
+    <button>ЧИТАТЬ ДАЛЕЕ</button>
+</div>
+<div class="grid-div">
+    <img src="./image/two.png" class="grid-img">
+    <p  class="text-one">Компания Digitain получила награду «Провайдер онлайн-казино года» на церемонии SiGMA Americas Awards  </p>
+    <p  class="text-two">13 September 2023 / Награды</p>
+    <p  class="text-tree">На прошедшей недавно в Лимассоле (Кипр) церемонии награждения SiGMA Balkans/CIS Awards Digitain получил очередную награду в...</p>
+    <button>ЧИТАТЬ ДАЛЕЕ</button>
+</div>
+<div class="grid-div">
+    <img src="./image/tree.png" class="grid-img">
+    <p  class="text-one">Амест Сафарян удостоена награды на WiG Diversity Awards </p>
+    <p  class="text-two">11 September 2023 / Награды</p>
+    <p  class="text-tree">С радостью сообщаем, что наша давняя сотрудница, Амест Сафарян, менеджер отдела продаж, была удостоена награды WiG Diversity &...    </p>
+    <button>ЧИТАТЬ ДАЛЕЕ</button>
+</div>
+<div class="grid-div">
+    <img src="./image/for.png" class="grid-img">
+    <p  class="text-one">Компания Digitain получила награду «Провайдер онлайн-казино года» на церемонии SiGMA Americas Awards</p>
+    <p  class="text-two">11 July 2023 / Награды</p>
+    <p  class="text-tree">С гордостью сообщаем, что стали лучшим поставщиком онлайн-казино на церемонии SiGMA Americas Awards.</p>
+    <button>ЧИТАТЬ ДАЛЕЕ</button>
+</div>
+<div class="grid-div">
+    <img src="./image/five.png" class="grid-img">
+    <p  class="text-one">Компания Digitain получила награду «Лучшая платформа для ставок на спорт 2023»</p>
+    <p  class="text-two">07 February 2023 / Награды</p>
+    <p  class="text-tree">Лондонским вечером 6 февраля Платформа от компании Digitain была признана Лучшей платформой для ставок на спорт во время 16-й...</p>
+    <button>ЧИТАТЬ ДАЛЕЕ</button>
+</div>
+<div class="grid-div">
+    <img src="./image/six.png" class="grid-img">
+    <p  class="text-one">Компания Digitain удостоилась приза как «Лучший поставщик программного обеспечения» на церемонии вручения наград Romanian Gambling Industry Grand Awards</p>
+    <p  class="text-two">07 February 2023 / Награды</p>
+    <p  class="text-tree">На прошлой неделе были объявлены победители на крупнейшем мероприятии, когда-либо проводимом игорной индустрией Румынии...</p>
+    <button>ЧИТАТЬ ДАЛЕЕ</button>
+</div>
+<div class="grid-div">
+    <img src="./image/seven.png" class="grid-img">
+    <p  class="text-one">Компания Digitain выиграла награду «Платформа года» на церемонии вручения наград Starlet Awards, организованной 5 Star iGaming Media</p>
+    <p  class="text-two"> 29 November 2022 / Награды</p>
+    <p  class="text-tree">В ноябре 2022 года компания Digitain получила награду «Платформа года» на церемонии Starlet Awards, организованной 5 Star iGaming...</p>
+    <button>ЧИТАТЬ ДАЛЕЕ</button>
+</div>
+<div class="grid-div">
+    <img src="./image/eight.png" class="grid-img">
+    <p  class="text-one">Компания Digitain выиграла награду «Платформа года» на церемонии SiGMA Europe 2022 Awards</p>
+    <p  class="text-two">16 November 2022 / Награды</p>
+<p  class="text-tree">Компания Digitain рада сообщить, что мы выиграли награду «Платформа года» на престижной премии SiGMA Europe 2022 Awards,...</p>
+    <button>ЧИТАТЬ ДАЛЕЕ</button>
+</div>
+<div class="grid-div">
+    <img src="./image/nine.png" class="grid-img">
+    <p  class="text-one">Качество Спортсбука от Digitain признано в североевропейском регионе</p>
+    <p  class="text-two">10 November 2022 / Награды</p>
+    <p  class="text-tree">Для нас большая честь и радость получить еще одну престижную награду за нашу платформу для ставок на спорт. Множество команд...</p>
+    <button>ЧИТАТЬ ДАЛЕЕ</button>
+</div>
+<div class="grid-div">
+    <img src="./image/ten.png" class="grid-img">
+    <p  class="text-one">Esports награда</p>
+    <p class="text-two">10 November 2022 / Награды</p>
+    <p  class="text-tree">Компания Digitain рада сообщить, что мы были удостоены награды «Поставщик года в области киберспорта» на SBC Summit Latinoamérica...</p>
+    <button>ЧИТАТЬ ДАЛЕЕ</button>
+</div>
+</div class="grid-div">
+<div class="footer">
+    <div class="block-one">
+<p class="title">Компания</p>
+<p>ПАРТНЕРЫ</p>
+<p>Свяжитесь с нами</p>
+<p>О нас</p>
+<p>Галерея</p>
+<p>Новости</p>
+<p>Награды</p>
+<p>Блог</p>
+<p>FAQ</p>
+</div>
+<div class="block-two">
+<p class="title">Продукты</p>
+<p>Платформа</p>
+<p>Спортсбук</p>
+<p>Платежный портал</p>
+<p>Спортивные данные и</p>
+<p>Статистика</p>
+<p>Агрегатор Игр Для Казино</p>
+<p>Лайв Казино</p>
+<p>DGBuilder</p>
+<p>Мобильное приложение</p>
+<p>БЫСТРЫЕ ИГРЫ</p>
+<p>ИГРЫ С</p>
+<p>ПРОГНОЗИРУЕМЫМ</p>
+<p>ИСХОДОМ</p>
+<p>ESports</p>
+</div>
+<div class="block-tree">
+    <p class="title">Решения</p>
+    <p>Turnkey (Под Ключ)</p>
+    <p>Модульный API</p>
+    <p>Мобайл</p>
+</div>
+<div class="block-for">
+<p class="title">Сервисы</p>
+<p>B2B Поддержка</p>
+<p>РЕГУЛИРОВАНИЕ И</p>
+<p>ЛИЦЕНЗИРОВАНИЕ</p>
+<p>УПРАВЛЕНИЕ РИСКАМИ И</p>
+<p>БОРЬБА С</p>
+<p>МОШЕННИЧЕСТВОМ</p>
+<p>IT И Хостинг Услуги</p>
+</div>
+<div class="block-five">
+<p class="title">Подписывайтесь на нас</p>
+<ion-icon  class="none"><a href="https://www.facebook.com/Digitain/"class="footer-a"  target="_blank"></ion-icon>
+<ion-icon name="logo-facebook" class="footer-icon"><a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQENaX5XgNZjfAAAAYr2ABR4VMAQeI9C0iBr0newgo9SL2kOvIEoR2R90i7vEMQMfxjGO0qEnpC-zDhbVS4gADne5tp33GNOa_db0sedzuDf7Dd5outDSX7D-cOjI4r3B_s8Lhk=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fdigitain-"class="footer-a" target="_blank"></ion-icon>
+<ion-icon name="logo-linkedin"class="footer-icon"><a href="https://twitter.com/digitain"class="footer-a"  target="_blank"></ion-icon>
+<ion-icon name="logo-twitter"class="footer-icon"><a href="https://www.youtube.com/@digitainarmenia"class="footer-a" target="_blank"></ion-icon>
+<ion-icon name="logo-youtube"class="footer-icon"></ion-icon>
+</div>
+</div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="./script.js"></script>
 </body>
 </html>
