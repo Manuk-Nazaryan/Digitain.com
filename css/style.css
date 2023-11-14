@@ -204,7 +204,7 @@ text-decoration: none;
         overflow-x: hidden;
     }
     #icon {
-        margin-right: 60px;
+        margin-right: 20px;
     }
 .header-text{
     display: none;
@@ -219,7 +219,7 @@ text-decoration: none;
 .header-logo{
     width: 100px;
     height:20px;
-    margin: 0 150px -1px 10px;
+    margin: 0 190px -1px 10px;
 }
 #bg-text{
     font-size: 15px;
