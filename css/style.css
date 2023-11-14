@@ -200,8 +200,11 @@ text-decoration: none;
     display: none;
 }
 @media screen and (max-width:800px) {
+    body{
+        overflow-x: hidden;
+    }
     #icon {
-margin: 0;
+        margin-right: 60px;
     }
 .header-text{
     display: none;
@@ -216,7 +219,7 @@ margin: 0;
 .header-logo{
     width: 100px;
     height:20px;
-    margin: 0 220px -1px 10px;
+    margin: 0 150px -1px 10px;
 }
 #bg-text{
     font-size: 15px;
