@@ -205,6 +205,7 @@ text-decoration: none;
     }
     #icon {
         margin-right: 20px;
+        font-size: 25px;
     }
 .header-text{
     display: none;
@@ -239,7 +240,8 @@ text-decoration: none;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 55vh;
+    height: 50vh;
+    width: 70vh;
     padding: 80px 0 0 0 ;
     position: relative;
 }
