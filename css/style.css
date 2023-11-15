@@ -254,15 +254,16 @@ margin-right: 175px;
 display: none;
 }
 .grid-img{
-    width: 350px;
-    height: 250px;
-    margin-left: 20px;
+    width: 250px;
+    height: 150px;
+
 }
 #text-grid{
-    margin-left:35px ;
+    margin-left:10px ;
+    font-size: 15px;
 }
 #grid-button{
-    margin-left: 130px;
+    margin-left: 45px;
 }
 .grid{
 display: grid;
@@ -272,12 +273,12 @@ margin-left: 15px;
 .footer{
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    background-image: url(../image/karta-mira-chernyi-fon-zemlia.jpg);
-    width: 250vh;
+    width: 100vh;
     height: 300vh;
 text-align: center;
+
 }
 .block-one,.block-two,.block-tree,.block-for,.block-five{
-    margin-right: 1080px;
+    margin-right: 350px;
 }
 }
