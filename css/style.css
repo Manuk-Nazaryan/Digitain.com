@@ -241,7 +241,7 @@ text-decoration: none;
     background-repeat: no-repeat;
     background-size: cover;
     height:50vh;
-    width: 70vh;
+    width: 60vh;
     padding: 80px 0 0 0 ;
     position: relative;
 }
@@ -254,16 +254,16 @@ margin-right: 175px;
 display: none;
 }
 .grid-img{
-    width: 250px;
+    width: 250px;   
     height: 150px;
-
+margin-left: 50px;
 }
 #text-grid{
-    margin-left:10px ;
+    margin-left:70px ;
     font-size: 15px;
 }
 #grid-button{
-    margin-left: 45px;
+    margin-left: 90px;
 }
 .grid{
 display: grid;
@@ -279,6 +279,6 @@ text-align: center;
 
 }
 .block-one,.block-two,.block-tree,.block-for,.block-five{
-    margin-right: 350px;
+    margin-right: 250px;
 }
 }
