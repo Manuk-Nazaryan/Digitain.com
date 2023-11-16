@@ -1,3 +1,6 @@
+.body{
+    overflow-y: hidden;
+}
 .header{
     background-color: #282828;
     color: white;
@@ -204,7 +207,7 @@ text-decoration: none;
         overflow-x: hidden;
     }
     #icon {
-        margin-right: 20px;
+        margin-right: 60px;
         font-size: 20px;
     }
 .header-text{
@@ -220,7 +223,7 @@ text-decoration: none;
 .header-logo{
     width: 100px;
     height:20px;
-    margin: 0 250px -1px 10px;
+    margin: 0 180px -1px 10px;
 }
 #bg-text{
     font-size: 15px;
@@ -259,11 +262,11 @@ display: none;
 margin-left: 50px;
 }
 #text-grid{
-    margin-left:70px ;
+    margin-left:50px ;
     font-size: 15px;
 }
 #grid-button{
-    margin-left: 90px;
+    margin-left: 70px;
 }
 .grid{
 display: grid;
@@ -279,6 +282,6 @@ text-align: center;
 
 }
 .block-one,.block-two,.block-tree,.block-for,.block-five{
-    margin-right: 250px;
+    margin-right: 280px;
 }
 }
