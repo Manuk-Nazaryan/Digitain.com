@@ -203,9 +203,6 @@ text-decoration: none;
     display: none;
 }
 @media screen and (max-width:800px) {
-    body{
-        overflow-x: hidden;
-    }
     #icon {
         margin-right: 60px;
         font-size: 20px;
@@ -276,12 +273,12 @@ margin-left: 15px;
 .footer{
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    width: 100vh;
+    width: 70vh;
     height: 300vh;
 text-align: center;
 
 }
 .block-one,.block-two,.block-tree,.block-for,.block-five{
-    margin-right: 280px;
+    margin-right: 120px;
 }
 }
