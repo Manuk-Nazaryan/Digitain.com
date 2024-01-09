@@ -204,11 +204,11 @@ text-decoration: none;
 }
 @media screen and (max-width:800px) {
     #icon {
-        margin-right: 60px;
+        /* margin-right: 60px; */
         font-size: 20px;
     }
     .header{
-        width: 370px;
+        width:331px ;
     }
 .header-text{
     display: none;
