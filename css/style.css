@@ -204,11 +204,11 @@ text-decoration: none;
 }
 @media screen and (max-width:800px) {
     #icon {
-        /* margin-right: 60px; */
+        
         font-size: 20px;
     }
     .header{
-        width:331px ;
+        width:341px ;
     }
 .header-text{
     display: none;
@@ -276,12 +276,12 @@ margin-left: 15px;
 .footer{
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    width: 70vh;
+    width: 55vh;
     height: 300vh;
 text-align: center;
 
 }
 .block-one,.block-two,.block-tree,.block-for,.block-five{
-    margin-right: 120px;
+    margin-right: 15px;
 }
 }
