@@ -207,6 +207,9 @@ text-decoration: none;
         margin-right: 60px;
         font-size: 20px;
     }
+    .header{
+        width: 500px;
+    }
 .header-text{
     display: none;
 }
@@ -241,7 +244,7 @@ text-decoration: none;
     background-repeat: no-repeat;
     background-size: cover;
     height:50vh;
-    width: 60vh;
+    width: 50vh;
     padding: 80px 0 0 0 ;
     position: relative;
 }
