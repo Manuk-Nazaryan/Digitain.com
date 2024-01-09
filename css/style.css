@@ -208,7 +208,7 @@ text-decoration: none;
         font-size: 20px;
     }
     .header{
-        width: 393px;
+        width: 370px;
     }
 .header-text{
     display: none;
@@ -227,16 +227,16 @@ text-decoration: none;
 }
 #bg-text{
     font-size: 15px;
-    margin:18px;
+    margin: 18px 0  0 0;
     text-align: center;
     align-items: center;
 }
 #bg-text:nth-of-type(4){
     width: 250px;
-    margin-left: 80px;
+    margin-left: 40px;
 }
 .btn:nth-of-type(1){
-    margin-left:150px;
+    margin-left:115px;
 }
 .bg{
     background-image: url(../image/bg_awards.png);
