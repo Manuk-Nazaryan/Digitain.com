@@ -1,3 +1,4 @@
+
 .body{
     overflow-y: hidden;
 }
@@ -279,7 +280,7 @@ margin-left: 15px;
     width: 100%;
     height: 300vh;
 text-align: center;
-
+padding-left:30px ;
 }
 .block-one,.block-two,.block-tree,.block-for,.block-five{
     margin-right: 15px;
