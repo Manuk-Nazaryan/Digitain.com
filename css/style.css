@@ -207,6 +207,7 @@ text-decoration: none;
     #icon {
         
         font-size: 20px;
+        margin-right: 50px;
     }
     .header{
         width: 100% ;
@@ -287,6 +288,6 @@ text-align: center;
 padding-left:35px ;
 }
 .block-one,.block-two,.block-tree,.block-for,.block-five{
-    margin-right: 15px;
+    margin-right: 30px;
 }
 }
