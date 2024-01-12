@@ -207,11 +207,13 @@ text-decoration: none;
     #icon {
         
         font-size: 20px;
-        margin-right: 50px;
+        margin:0;
     }
     .header{
         width: 100% ;
         padding-left: 35px;
+        display: flex;
+        justify-content: space-around;
     }
 .header-text{
     display: none;
@@ -226,7 +228,7 @@ text-decoration: none;
 .header-logo{
     width: 100px;
     height:20px;
-    margin: 0 230px -1px 10px;
+    margin: 0;
 }
 #bg-text{
     font-size: 15px;
@@ -288,6 +290,6 @@ text-align: center;
 padding-left:35px ;
 }
 .block-one,.block-two,.block-tree,.block-for,.block-five{
-    margin-right: 30px;
+    margin-right: 45px;
 }
 }
