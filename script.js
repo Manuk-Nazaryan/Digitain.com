@@ -30,12 +30,13 @@ const menuVisible = function(){
         menu8.classList.add("visible")
           menu8.classList.remove("header-text")
           header.classList.add("header-visible")
-          icon.classList.add('header-text')  
+          icon.classList.add('header-text',)  
           media.classList.add('header-visible')    
 }
 const closeVisible = function(){
   icon.classList.remove('header-text')
   media.classList.remove('header-visible')
+  icon.classList.add('logo-fixed')
 menu.classList.add('header-text')  
 menu1.classList.add('header-text')  
 menu2.classList.add('header-text')  

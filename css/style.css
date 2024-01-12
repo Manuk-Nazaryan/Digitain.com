@@ -215,11 +215,16 @@ text-decoration: none;
         display: flex;
         justify-content: space-between;
     }
+    
 .header-text{
     display: none;
 }
 .header-visible{
     display: block;
+}
+.logo-fixed{
+padding-left: 300px;
+
 }
 .visible{
       font-size: 15px;
